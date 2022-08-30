@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efefef;
+  color: #000000;
+  font-family: 'Muli', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  padding: 10px;
+  margin: 0;
+}
+
+h2 {
+  margin: 10px 0 20px;
+  text-align: center;
+}
+
+.title{
+    text-align: center;
+    margin-top: -2rem;
+    padding-bottom: 1rem;
+}
+.container {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 20px 6px rgb(0 0 0 / 20%);
+  padding: 20px;
+  width: 350px;
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+.result-container {
+  background-color: #efefef;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  border-radius: 1rem;
+  font-size: 18px;
+  letter-spacing: 1px;
+  padding: 12px 10px;
+  height: 50px;
+  width: 100%;
+}
+
+.result-container #result {
+  word-wrap: break-word;
+  max-width: calc(100% - 40px);
+  overflow-y: scroll;
+  height: 100%;
+}
+
+#result::-webkit-scrollbar {
+  width: 1rem;
+}
+
+.result-container .btn {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+#length{
+    border-radius: 0.4rem;
+    border-color: #000;
+    border-width: 1px;
+}
+.btn {
+  border: none;
+  background-color: #f3f3f3;
+  color: #000;
+  font-size: 16px;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.btn-large {
+  display: block;
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+.link{
+    text-align: center;
+    padding-top: 5rem;
+}
+.pfp{
+    text-decoration: none;
+    color: #195503;
+}
